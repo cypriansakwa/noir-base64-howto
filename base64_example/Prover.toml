@@ -1,0 +1,4 @@
+#base64_encoded = "VGhlIHF1aWNrIGJy"
+#input = "The quick br"
+base64_encoded = "VGhlIHF1aWNrIGJyb3duIGZveCBqdW1wcyBvdmVyIHRoZSBsYXp5IGRvZywgd2hpbGUgNDIgcmF2ZW5zIHBlcmNoIGF0b3AgYSBydXN0eSBtYWlsYm94Lg=="
+input = "The quick brown fox jumps over the lazy dog, while 42 ravens perch atop a rusty mailbox."
