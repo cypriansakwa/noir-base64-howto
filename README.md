@@ -6,25 +6,14 @@ The project is updated for Noir `1.0.0-beta.6` and uses only the `noir_base64` l
 ## Prerequisites
 
 - Noir >= 1.0.0-beta.6
-
-## Setup
-
-1. **Clone the repo** (if not already):
-
-   ```sh
-   git clone https://github.com/noir-lang/noir-examples.git
-   cd noir-examples/lib_examples/base64_example
-   ```
-
-2. **Install dependencies**  
-   Ensure your `Nargo.toml` includes the following:
+- Ensure your `Nargo.toml` includes the following:
 
    ```toml
    [dependencies]
    noir_base64 = { tag = "v0.4.2", git = "https://github.com/noir-lang/noir_base64.git" }
    ```
 
-3. **Test inputs**  
+## Test inputs  
    The `src/test_inputs.nr` file should contain:
 
    ```noir
