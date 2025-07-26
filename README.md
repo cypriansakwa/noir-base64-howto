@@ -32,7 +32,7 @@ The project is updated for Noir `1.0.0-beta.6` and uses only the `noir_base64` l
 
 ## How to Select Input Length
 
-Noir currently requires you to **explicitly set the input length at compile time**.  
+**Explicitly set the input length at compile time**.  
 This is done by commenting or uncommenting the relevant lines in `src/main.nr`.
 
 ### 1. **Edit `src/main.nr` to select SHORT or LONG input**
