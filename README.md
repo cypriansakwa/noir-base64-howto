@@ -5,9 +5,7 @@ The project is updated for Noir `1.0.0-beta.6` and uses only the `noir_base64` l
 
 ## Prerequisites
 
-- [Noir](https://noir-lang.org/) `>=1.0.0-beta.6`
-- [nargo](https://noir-lang.org/docs/getting_started/nargo/)
-- Git
+- Noir >= 1.0.0-beta.6
 
 ## Setup
 
@@ -186,3 +184,15 @@ This will execute all `[test]` functions, including the batch roundtrip test, us
 
 - [noir_base64 library](https://github.com/noir-lang/noir_base64)
 - [base64_example](https://github.com/noir-lang/noir-examples/tree/master/lib_examples/base64_example)
+
+### 🧭 Ecosystem Attribution
+
+This project is indexed in the [Electric Capital Crypto Ecosystems Map](https://github.com/electric-capital/crypto-ecosystems).
+
+**Source**: Electric Capital Crypto Ecosystems  
+**Link**: [https://github.com/electric-capital/crypto-ecosystems](https://github.com/electric-capital/crypto-ecosystems)  
+**Logo**: ![Electric Capital Logo](https://avatars.githubusercontent.com/u/44590959?s=200&v=4)
+
+💡 _If you’re working in open source crypto, [submit your repository here](https://github.com/electric-capital/crypto-ecosystems) to be counted._
+
+Thank you for contributing and for reading the contribution guide! ❤️
