@@ -35,7 +35,7 @@ The project is updated for Noir `1.0.0-beta.6` and uses only the `noir_base64` l
 **Explicitly set the input length at compile time**.  
 This is done by commenting or uncommenting the relevant lines in `src/main.nr`.
 
-### 1. **Edit `src/main.nr` to select SHORT or LONG input**
+ ### **Edit `src/main.nr` to select SHORT or LONG input**
 
 Open `src/main.nr` and **uncomment only one block** as shown below:
 
@@ -92,24 +92,24 @@ fn test() {
 
 ## Input Files for Execution
 
-### About Prover TOML files
+ ### About Prover TOML files
 
 When running your Noir circuit with `nargo execute`, you must provide input values that match the compile-time string lengths you configured above.
 
 - By default, `nargo execute` uses the file `Prover.toml` in your project directory.
 - You can also specify a different input file with the `-p` flag, e.g. `nargo execute -p Prover_SHORT.toml`.
 
-### What should your input TOML files contain?
+ ### What should your input TOML files contain?
 
 **The TOML file must exactly match the types and lengths set in your `main.nr`.**
 
-#### If using SHORT input (short block uncommented):
+  #### If using SHORT input (short block uncommented):
 ```toml name=Prover.toml
 base64_encoded = "VGhlIHF1aWNrIGJy"
 input = "The quick br"
 ```
 
-#### If using LONG input (long block uncommented):
+  #### If using LONG input (long block uncommented):
 ```toml name=Prover.toml
 base64_encoded = "VGhlIHF1aWNrIGJyb3duIGZveCBqdW1wcyBvdmVyIHRoZSBsYXp5IGRvZywgd2hpbGUgNDIgcmF2ZW5zIHBlcmNoIGF0b3AgYSBydXN0eSBtYWlsYm94Lg=="
 input = "The quick brown fox jumps over the lazy dog, while 42 ravens perch atop a rusty mailbox."
@@ -121,13 +121,13 @@ input = "The quick brown fox jumps over the lazy dog, while 42 ravens perch atop
 
 ## How to Compile and Run
 
-### 1. **Compile the circuit**
+ ### 1. **Compile the circuit**
 
 ```sh
 nargo compile
 ```
 
-### 2. **Run with the matching Prover TOML**
+ ### 2. **Run with the matching Prover TOML**
 
 - With default `Prover.toml`:
   ```sh
@@ -174,7 +174,7 @@ This will execute all `[test]` functions, including the batch roundtrip test, us
 - [noir_base64 library](https://github.com/noir-lang/noir_base64)
 - [base64_example](https://github.com/noir-lang/noir-examples/tree/master/lib_examples/base64_example)
 
-### 🧭 Ecosystem Attribution
+ ### 🧭 Ecosystem Attribution
 
 This project is indexed in the [Electric Capital Crypto Ecosystems Map](https://github.com/electric-capital/crypto-ecosystems).
 
